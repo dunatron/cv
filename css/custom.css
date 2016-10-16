@@ -1,0 +1,215 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+  background-color: #f58026; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+}
+
+#services {
+  background-color: #FFFFFF;
+  color: #f58026;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.statement {
+  background-color: #FFFFFF;
+  color: #f58026;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.statement p {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.education {
+  background-color: #f58026;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.skills {
+  background-color: #FFFFFF;
+  color: #f58026;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.experience {
+  background-color: #f58026;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.achievements {
+  background-color: #ffffff;
+  color: #f58026;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.references {
+  background-color: #F58026;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  background: url(../images/estate.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+
+
+.btn-arrow {
+  color: #f58026;
+  
+}
+
+
+
+
+.btn-cv {
+  color: #f58026;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.btn-cv:hover,
+.btn-cv:focus,
+.btn-cv.focus,
+.btn-cv:active,
+.btn-cv.active,
+.open > .dropdown-toggle.btn-cv {
+  color: #f58026;
+  background-color: #f8f8ff;
+  border-color: #f8f8ff;
+}
+.btn-cv:active,
+.btn-cv.active,
+.open > .dropdown-toggle.btn-cv {
+  background-image: none;
+}
+.btn-cv.disabled,
+.btn-cv[disabled],
+fieldset[disabled] .btn-cv,
+.btn-cv.disabled:hover,
+.btn-cv[disabled]:hover,
+fieldset[disabled] .btn-cv:hover,
+.btn-cv.disabled:focus,
+.btn-cv[disabled]:focus,
+fieldset[disabled] .btn-cv:focus,
+.btn-cv.disabled.focus,
+.btn-cv[disabled].focus,
+fieldset[disabled] .btn-cv.focus,
+.btn-cv.disabled:active,
+.btn-cv[disabled]:active,
+fieldset[disabled] .btn-cv:active,
+.btn-cv.disabled.active,
+.btn-cv[disabled].active,
+fieldset[disabled] .btn-cv.active {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-cv .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
